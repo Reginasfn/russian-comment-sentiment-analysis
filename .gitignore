@@ -1,0 +1,22 @@
+
+# === LARGE FILES - НЕ ГРУЗИТЬ В GIT ===
+df1_*.csv
+df1_*.pkl
+*.pkl
+dataset*.txt
+dataset*.csv
+comments_dataset*
+best_model_*.h5
+*.h5
+
+# === Jupyter & Python ===
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# === IDE & Env ===
+.idea/
+.vscode/
+tf_env/
+venv/
+*.log
