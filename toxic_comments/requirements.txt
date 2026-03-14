@@ -1,0 +1,5 @@
+tensorflow==2.18.0
+streamlit==1.30.0
+mysql-connector-python==8.2.0
+pandas==2.0.3
+numpy==1.26.4

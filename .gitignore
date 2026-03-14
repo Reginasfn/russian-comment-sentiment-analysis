@@ -1,13 +1,14 @@
-
 # === LARGE FILES - НЕ ГРУЗИТЬ В GIT ===
 df1_*.csv
 df1_*.pkl
-*.pkl
 dataset*.txt
 dataset*.csv
 comments_dataset*
 best_model_*.h5
-*.h5
+
+# === ALLOW specific files in models ===
+!toxic_comments/models/*.pkl
+!toxic_comments/models/*.keras
 
 # === Jupyter & Python ===
 .ipynb_checkpoints/
@@ -20,3 +21,7 @@ __pycache__/
 tf_env/
 venv/
 *.log
+
+# === BLOCK all other large files ===
+*.pkl
+*.h5
